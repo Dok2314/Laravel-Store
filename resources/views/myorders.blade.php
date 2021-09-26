@@ -12,7 +12,6 @@
       <img src="/images/{{$prod->gallery}}" class="trending-image" width="180px" height="200px">
       </a>
       </div>
-
       <div class="col-sm-3">
         <h5 style="text-align:center;">Товар : {{$prod->name}}</h5>
         <h5 style="text-align:center;">Статус Доставки : {{$prod->status}}</h5>

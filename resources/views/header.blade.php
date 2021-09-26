@@ -4,7 +4,6 @@ $total = 0;
 if(Session::has('user')){
   $total = ProductController::cartItem();
 }
-
 ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
