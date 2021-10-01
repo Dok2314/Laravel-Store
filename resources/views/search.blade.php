@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="container">  
-<h3>Найденый Товар</h3>
+<h3>Найденые Товары</h3>
 <div class="trending-wrapper d-flex justify-content-around">
   @foreach($products as $prod)
     <div class="trending-item">
